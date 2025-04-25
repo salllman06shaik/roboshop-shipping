@@ -10,6 +10,6 @@ jobs:
         run: |
           cd db
           export PATH=/home/github/.local/bin:/home/github/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin
-          docker build -t 633788536644.dkr.ecr.us-east-1.amazonaws.com/shipping-schema:latest .
-          aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 633788536644.dkr.ecr.us-east-1.amazonaws.com
-          docker push 633788536644.dkr.ecr.us-east-1.amazonaws.com/shipping-schema:latest
+          docker build -t 533267148162.dkr.ecr.us-east-1.amazonaws.com/shipping-schema:latest .
+          aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 533267148162.dkr.ecr.us-east-1.amazonaws.com
+          docker push 533267148162.dkr.ecr.us-east-1.amazonaws.com/shipping-schema:latest
